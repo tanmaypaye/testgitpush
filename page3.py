@@ -15,3 +15,4 @@ collection = database['tan']
 data = collection.find({'batteryVoltageStableTime': {'$gt': 0}})
 for i in data:
     print(i)
+
