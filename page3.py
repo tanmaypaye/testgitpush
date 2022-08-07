@@ -2,7 +2,7 @@ import pymongo
 client = pymongo.MongoClient("mongodb+srv://Tanmay:Password@tanmay.si14ffa.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 database = client['myinfo']
-collection = database['tan']
+collection = database['tan1']
 
 # record = collection.find()
 # for i in record:
