@@ -5,6 +5,6 @@ mydb = client.test
 data01 = {'l': 'q', 'k': 'w', 'j': 'e', 'h': 'r'},{'g': 't', 'f': 'y', 'd': 'u', 's':'i'}
 
 database  = client['prv']
-collections = database['prv.10']
+collections = database['prv.11R']
 
 
