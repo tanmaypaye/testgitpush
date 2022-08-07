@@ -2,7 +2,7 @@ import pymongo
 client = pymongo.MongoClient("mongodb+srv://Tanmay:Password@tanmay.si14ffa.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 database = client['myinfo']
-collection = database['tan1']
+collection = database['tan10']
 
 # record = collection.find()
 # for i in record:
@@ -15,4 +15,5 @@ collection = database['tan1']
 data = collection.find({'batteryVoltageStableTime': {'$gt': 0}})
 for i in data:
     print(i)
+
 
