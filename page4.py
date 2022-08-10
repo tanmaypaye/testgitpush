@@ -1,5 +1,5 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://Tanmay:Password@tanmay.si14ffa.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://Tanmay:database1@tanmay.si14ffa.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 database = client['page4']
 collections = database['4.1']
