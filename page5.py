@@ -5,3 +5,4 @@ databese = client['page5']
 collections = databese['page5.1']
 data = {'h1': 'a', 'h2': 'b', 'h3': 'c'}
 
+
