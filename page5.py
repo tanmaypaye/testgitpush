@@ -3,8 +3,9 @@ client = pymongo.MongoClient("mongodb+srv://Tanmay:Password@tanmay.si14ffa.mongo
 db = client.test
 databese = client['page5']
 collections = databese['page5.1']
-data = {'h1': 'a', 'h2': 'b', 'h3': 'c'}
-
+data = [{'h1': 'a', 'h2': 'b', 'h3': 'c'}, {'h1': 'a', 'h2': 'b', 'h3': 'c'}]
+collections.insert_one(data)
+# collection.insert_many(data)
 
 
 
