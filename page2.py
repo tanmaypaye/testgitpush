@@ -13,7 +13,7 @@ data = [{
     'a' : 2,
     'v' : 'tan'
 },
-    {'h' : 'g'}]
+    {'h' : 'g '}]
 database = client['myinfo']
 collection = database['tan']
 collection.insert_one(data)
